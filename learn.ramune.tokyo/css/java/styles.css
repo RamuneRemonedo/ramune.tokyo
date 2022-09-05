@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/idle-fingers.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -11549,7 +11552,7 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 35rem;
+    min-height: 20rem;
     padding: 15rem 0;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../../assets/img/java/bg-masthead.jpg");
     background-position: center;
@@ -11631,4 +11634,24 @@ body {
 
 .footer {
     padding: 5rem 0;
+}
+
+body {
+    font: 16px 'Open Sans', sans-serif;
+}
+body .gist .gist-file {
+    border-color: #555 #555 #444
+}
+body .gist .gist-data {
+    border-color: #555
+}
+body .gist .gist-meta {
+    color: #ffffff;
+    background: #373737;
+}
+body .gist .gist-meta a {
+    color: #ffffff
+}
+body .gist .gist-data .pl-s .pl-s1 {
+    color: #a5c261
 }
